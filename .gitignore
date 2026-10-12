@@ -1,0 +1,41 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.env
+.env.*
+.pytest_cache/
+.mypy_cache/
+*.log
+.DS_Store
+Thumbs.db
+
+# Raw and processed data (too large / licensing)
+data/raw/
+data/processed/
+
+# SQLite DB (runtime artifact)
+data/*.db
+*.db
+
+# Trained models (can be regenerated; too large for git)
+models/*.joblib
+
+# Build and dist artifacts
+dist/
+build/
+*.egg-info/
+
+# Playwright browser binaries
+playwright-browsers/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ZIP bundles
+*.zip

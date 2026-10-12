@@ -1,0 +1,6 @@
+file,vendor,invoice_number,invoice_date,due_date,subtotal,tax,total,synthetic
+synthetic_001.png,Northwind Traders Ltd,INV-2026-001,2026-03-14,2026-04-13,1200.0,216.0,1416.0,True
+synthetic_002.png,Acme Office Supplies,AC-77841,2026-05-02,2026-06-01,86.5,15.57,102.07,True
+synthetic_003_mismatch.png,Globex Logistics,GX-5520,2026-06-20,2026-07-20,500.0,90.0,690.0,True
+synthetic_004_duplicate_of_001.png,Northwind Traders Ltd,INV-2026-001,2026-03-14,2026-04-13,1200.0,216.0,1416.0,True
+synthetic_005.pdf,Initech Software,2026/0415,2026-04-15,2026-05-15,2500.0,450.0,2950.0,True

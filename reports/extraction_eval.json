@@ -1,0 +1,51 @@
+{
+  "dataset": "CORD v2 (100 real receipt samples)",
+  "n_documents": 100,
+  "n_failed": 0,
+  "failures": [],
+  "metrics": {
+    "vendor": {
+      "n_truth": 0,
+      "n_predicted": 84,
+      "correct": 0,
+      "precision": 0.0,
+      "recall": null
+    },
+    "invoice_number": {
+      "n_truth": 0,
+      "n_predicted": 0,
+      "correct": 0,
+      "precision": null,
+      "recall": null
+    },
+    "invoice_date": {
+      "n_truth": 0,
+      "n_predicted": 0,
+      "correct": 0,
+      "precision": null,
+      "recall": null
+    },
+    "subtotal": {
+      "n_truth": 72,
+      "n_predicted": 23,
+      "correct": 20,
+      "precision": 0.8695652173913043,
+      "recall": 0.2777777777777778
+    },
+    "tax": {
+      "n_truth": 45,
+      "n_predicted": 9,
+      "correct": 4,
+      "precision": 0.4444444444444444,
+      "recall": 0.08888888888888889
+    },
+    "total": {
+      "n_truth": 98,
+      "n_predicted": 43,
+      "correct": 20,
+      "precision": 0.46511627906976744,
+      "recall": 0.20408163265306123
+    }
+  },
+  "note": "Exact-match after normalisation; not comparable to published benchmarks."
+}
