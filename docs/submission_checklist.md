@@ -30,9 +30,9 @@
 
 ## GitHub readiness
 - [x] `.gitignore` excludes `.venv/`, `data/raw/`, `data/processed/`, `data/*.db`, `models/*.joblib`, `*.log`, `.env`
-- [ ] **Add `LICENSE`** — choose MIT, Apache-2.0, or GPL-3.0 and commit a `LICENSE` file (YOU must decide)
-- [ ] Run `git init && git add . && git status` — verify no secrets, DB, or raw data committed
-- [ ] Create GitHub repository; push; test a fresh clone
+- [x] **`LICENSE`** — MIT licence committed
+- [x] Verified `git status` — no secrets, DB, raw data, or joblib binaries tracked
+- [x] Pushed to GitHub repository: **`https://github.com/Jayant962/AICTE.git`** (main branch)
 - [ ] Copy the repository URL into the IBM SkillsBuild submission form
 
 ## Internship form (items only YOU can provide)
